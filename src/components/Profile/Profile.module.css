@@ -1,0 +1,84 @@
+.profile {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding-top: 15px;
+    width: 370px;
+    box-shadow: 0 0 10px #c6cccced;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.avatar{
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    background-color: #e7eeeeed;
+    padding: 20px 10px 0px 10px;
+    margin-bottom: 15px;
+}
+
+.name{
+    text-align: center;
+    font-size: 25px;
+}
+
+.tag{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #a3a3a3;
+    margin-bottom: 15px;
+}
+
+.location{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #a3a3a3;
+    margin-bottom: 15px;
+}
+
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 0;
+  width: inherit;
+  background-color: #f3f6f9;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.stats > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    min-width: 80px;
+    padding: 7px 0;
+}
+
+.label{
+  margin-right: 3px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #a3a3a3;
+  margin-bottom: 5px;
+}
+
+.quantity{
+  font-weight: 600;
+  font-size: 20px;
+  color: #0d0d0d;
+}

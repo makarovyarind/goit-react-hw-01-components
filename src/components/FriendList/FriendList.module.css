@@ -1,0 +1,28 @@
+.friends{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+    width: 370px;
+    margin-bottom: 100px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px #c6cccced;
+    padding: 20px;
+}
+
+.true{
+    background-color: green;
+}
+
+.false{
+    background-color: red;
+}
+
+.name{
+    font-size: 20px;
+
+}
