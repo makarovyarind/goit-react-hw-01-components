@@ -19,7 +19,7 @@ export const App = () => {
     views={user.stats.views}
     likes={user.stats.likes} />
     <Statistics title='upload stats' stats={data}/>
-    <FriendList friends={friends} />
+    <FriendList friends={friends}/>
     <Transactions items={transactions} />
   </div>
     );
